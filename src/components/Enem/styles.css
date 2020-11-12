@@ -1,0 +1,80 @@
+section.enem {
+    background-color: #180449;
+    width: 100%;
+    padding: 25px;
+}
+
+section.enem div.enem_header {
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+section.enem div.enem_header div.img {
+    width: 100%;
+    text-align: center;
+}
+
+section.enem div.enem_header div.img img {
+    width: 25%;
+}
+
+section.enem div.enem_header div.description {
+    padding: 15px;
+}
+
+section.enem div.enem_header div.description p {
+    font-size: 1.125rem;
+    color: #4A5C65;
+}
+
+section.enem div.enem_teachers {
+    /* padding: 15px; */
+}
+
+section.enem div.teachers_slide {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    section.enem div.enem_header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        padding: 15px;
+    }
+    section.enem div.enem_header div.img {
+        text-align: center;
+    }
+    section.enem div.enem_header div.img img {
+        width: auto;
+    }
+    section.enem div.enem_teachers div.teachers_slide {
+        border-radius: 15px;
+        background: #dee9f2;
+        width: 100%;
+    }
+    section.enem div.enem_teachers div.teacher {
+        border-radius: 15px;
+        margin-left: 0;
+    }
+    section.enem div.enem_teachers div.teacher img {
+        width: 100%;
+    }
+    section.enem div.enem_teachers div.teachers_slide ol.carousel-indicators {
+        display: none;
+    }
+    section.enem div.enem_teachers div.teachers_slide a.carousel-control-prev,
+    section.enem div.enem_teachers div.teachers_slide a.carousel-control-next {
+        display: none;
+    }
+    section.enem div.enem_teachers div.teachers_slide div.carousel-inner {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    section.enem div.enem_teachers div.teachers_slide div.carousel-inner div.carousel-item {
+        margin-right: 0;
+        display: block;
+        transition: none;
+    }
+}

@@ -1,0 +1,148 @@
+section.value {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+section.value div.investment {
+    padding: 0 10px;
+}
+
+section.value div.investment h1 {
+    font-size: 1.3rem;
+    font-family: 'Avenir_Bd';
+    color: #4A5C65;
+}
+
+section.value div.carousel {
+    text-align: center;
+    width: 100%;
+}
+
+section.value div.value_slide a.carousel-control-prev,
+section.value div.value_slide a.carousel-control-next {
+    top: 20px;
+    height: 20px;
+}
+
+section.value div.promotional {
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+section.value div.promotional h1 {
+    color: #02BDC7;
+    font-size: 1.3rem;
+    font-family: 'Avenir_Bd';
+    margin-bottom: 0;
+}
+
+section.value div.packages {
+    padding: 0;
+}
+
+section.value div.packages article.package_1 {
+    background-color: #DEE9F2;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+section.value div.packages article.package_2 {
+    background-color: #DEE9F2;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+section.value div.packages article.package_1 a {
+    background-color: #FFB600;
+    border-color: #FFB600;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0px 15px;
+    font-size: 1.7rem;
+    font-family: 'Avenir_Bd';
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+section.value div.packages article.package_2 a {
+    background-color: #02BDC7;
+    border-color: #02BDC7;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0px 15px;
+    font-size: 1.7rem;
+    font-family: 'Avenir_Bd';
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+section.value div.packages article.package_1 img {
+    width: 100%;
+}
+
+section.value div.packages article.package_1 img {
+    width: 100%;
+}
+
+section.value div.packages article.package_2 img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    section.value div.value_slide div.carousel-inner {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    section.value div.value_slide a.carousel-control-prev, section.value div.value_slide a.carousel-control-next {
+        display: none;
+    }
+    section.value div.value_slide div.carousel-inner div.carousel-item {
+        display: contents;
+        transition: none;
+    }
+    section.value div.promotional h1 {
+        font-size: 2rem;
+    }
+    section.value div.investment h1 {
+        font-size: 2rem;
+    }
+    section.value div.packages article.package_1 a {
+        position: absolute;
+        margin: 0 auto;
+        width: fit-content;
+        top: 10px;
+        right: 25%;
+        left: 25%;
+        font-size: 2.5rem;
+        z-index: 1;
+    }
+    section.value div.packages article.package_2 a {
+        position: absolute;
+        margin: 0 auto;
+        width: fit-content;
+        top: -20px;
+        right: 25%;
+        left: 25%;
+        font-size: 2.5rem;
+        z-index: 1;
+    }
+    section.value div.packages article.package_1 img {
+        width: 300px;
+    }
+    section.value div.packages article.package_2 img {
+        width: 300px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    section.value div.packages article.package_1 img {
+        width: 300px;
+    }
+    section.value div.packages article.package_2 img {
+        width: 300px;
+    }
+}

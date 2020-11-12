@@ -1,0 +1,48 @@
+section.timesheet {
+    border-radius: 10px;
+}
+
+section.timesheet div.card {
+    padding: 4px;
+}
+
+section.timesheet h1 {
+    font-size: 1rem;
+    font-family: 'Avenir_Bd';
+    color: #4A5C65;
+}
+
+section.timesheet div.card-header {
+    color: #fff;
+    font-family: 'Avenir_Bd';
+    border-radius: 10px;
+}
+
+section.timesheet div.hours h5 {
+    margin-top: 10px;
+    color: #4A5C65;
+    font-family: 'Avenir_Bd';
+    font-size: 1rem;
+}
+
+section.timesheet div.hours h6 {
+    font-family: 'Avenir_Bd';
+    opacity: 0.7;
+    color: #4A5C65;
+}
+
+section.timesheet div.hours hr {
+    height: 2px;
+    border-top: 4px solid rgba(0,0,0,.1)
+}
+
+div.timesheet_slide a.carousel-control-prev,
+div.timesheet_slide a.carousel-control-next {
+    top: 30px;
+    height: 20px;
+}
+a.carousel-control-prev span.carousel-control-prev-icon,
+a.carousel-control-next span.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 5px;
+}

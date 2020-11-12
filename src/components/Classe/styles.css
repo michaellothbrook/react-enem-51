@@ -1,0 +1,64 @@
+section.classe {
+    background-color: #FFB600;
+    padding: 25px;
+}
+
+section.classe div.container {
+    background-color: #DEE9F2;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+section.classe div.container div.row div.carousel {
+    margin: 10px 0;
+}
+
+section.classe div.hour h1 {
+    font-size: 1.4rem;
+    color: #4A5C65;
+    font-family: 'Aller_Bd';
+    padding: 10px;
+}
+
+section.classe div.timesheet_slide {
+    width: 100%;
+}
+
+section.classe div.courses_timesheet>div.row>h1,
+section.classe div.enem_timesheet>div.row>h1 {
+    font-size: 1rem;
+    font-family: 'Avenir_Bd';
+    color: #4A5C65;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    section.classe div.courses_timesheet div.timesheet_slide a.carousel-control-prev {
+        display: none;
+    }
+    section.classe div.courses_timesheet div.timesheet_slide a.carousel-control-next {
+        display: none;
+    }
+    section.classe div.courses_timesheet div.timesheet_slide div.carousel-inner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    section.classe div.courses_timesheet div.timesheet_slide div.carousel-inner div.carousel-item {
+        display: contents;
+        transition: none;
+    }
+    section.classe div.enem_timesheet div.timesheet_slide a.carousel-control-prev {
+        display: none;
+    }
+    section.classe div.enem_timesheet div.timesheet_slide a.carousel-control-next {
+        display: none;
+    }
+    section.classe div.enem_timesheet div.timesheet_slide div.carousel-inner {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    section.classe div.enem_timesheet div.timesheet_slide div.carousel-inner div.carousel-item {
+        display: contents;
+        transition: none;
+    }
+}
